@@ -14,10 +14,10 @@ php -S 127.0.0.1:80 -t provider\
 
 ## Client 1
 ```
-php -S 127.0.0.2:80 -t provider\
+php -S 127.0.0.2:80 -t client1\
 ```
 
 ## Client 2
 ```
-php -S 127.0.0.3:80 -t provider\
+php -S 127.0.0.3:80 -t client2\
 ```
