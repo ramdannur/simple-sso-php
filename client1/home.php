@@ -144,14 +144,14 @@
         <br>
         <?php echo $_SESSION['token'] ?>
 
-        <?
+        <?php
 
        }else{
       	?>
 
           Anda belum login!
 
-      	<?
+      	<?php
       }
       // function hash_equals($a, $b) {
       //     $key = mcrypt_create_iv(128, MCRYPT_DEV_URANDOM);

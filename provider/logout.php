@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting(1);
 session_start();
 include("./helper/pdo.class.crud.php");

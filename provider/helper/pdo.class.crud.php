@@ -11,7 +11,7 @@ class crud extends PDO{
 		$this->host = 'localhost';
 		$this->database = 'thq_sso_db';
 		$this->user = 'root';
-		$this->pass = '';
+		$this->pass = 'rootx123';
 		$dns = $this->enggine.':dbname='.$this->database.';host='.$this->host;
 		parent::__construct($dns, $this->user, $this->pass);
 	}

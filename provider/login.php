@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting(1);
 session_start();
 include("./helper/pdo.class.crud.php");
@@ -191,7 +191,7 @@ if (isset($_POST['btn_submit'])) {
 					 		<a href="logout.php">LOGOUT</a>
 						</div>
 					</div>
-					<?
+					<?php
 				}else{
 					?>
 				 	<div class="col-md-4 col-md-offset-4">
